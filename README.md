@@ -2,7 +2,9 @@
 
 - - - -
 # Pre-reqs
-You will want to have `cpanm` and `carton` to make this as easy as possible.
+You will want to have `docker` to make this as easy as possible.
+
+Alternatively, you need [cpanm](http://search.cpan.org/~miyagawa/App-cpanminus-1.7042/lib/App/cpanminus.pm) and [carton](http://search.cpan.org/~miyagawa/Carton-v1.0.28/lib/Carton.pm) to run it locally.
 
 - - - -
 # Installation
