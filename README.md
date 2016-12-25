@@ -10,9 +10,16 @@ Alternatively, you need [cpanm](http://search.cpan.org/~miyagawa/App-cpanminus-1
 # Installation
 
     git clone https://github.com/pgporada/oregon-trail.git
-    carton install --deployment
+    carton install
     chmod +x oregon-trail.pl
-    ./oregon-trail.pl
+    carton exec ./oregon-trail.pl
+
+- - - -
+# Linting and Testing
+
+    carton install
+    chmod +x linter.pl
+    carton exec ./linter.pl
 
 - - - -
 # License and Author Information
