@@ -2,5 +2,12 @@
 use warnings;
 use strict;
 
-my $command = `perl --version`;
-print $command;
+use feature 'say';
+
+use YAML::XS 'LoadFile';
+use Data::Dumper;
+
+my $config = LoadFile('config/test.yml');
+for (@{$config->{name}}) { say }
+
+print Dumper($config);
