@@ -1,2 +1,11 @@
 # carton snapshot format: version 1.0
 DISTRIBUTIONS
+  YAML-LibYAML-0.63
+    pathname: T/TI/TINITA/YAML-LibYAML-0.63.tar.gz
+    provides:
+      YAML::LibYAML 0.63
+      YAML::XS 0.63
+      YAML::XS::LibYAML undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
