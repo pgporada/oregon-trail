@@ -12,7 +12,7 @@ Alternatively, you need [cpanm](http://search.cpan.org/~miyagawa/App-cpanminus-1
     git clone https://github.com/pgporada/oregon-trail.git
     carton install
     chmod +x oregon-trail.pl
-    carton exec ./oregon-trail.pl
+    carton exec ./bin/oregon-trail.pl
 
 - - - -
 # Linting and Testing
